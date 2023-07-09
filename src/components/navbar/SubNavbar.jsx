@@ -249,7 +249,9 @@ export const SubNavbar = ({ setFilter }) => {
         <div>
           <button className="btn btn-outline border-base-300 normal-case rounded-lg !flex flex-nowrap shadow-sm hover:bg-transparent hover:shadow hover:border-base-300 hover:text-[#1f2937] text-xs">
             <i className="ri-equalizer-line"></i>
-            <a className="text-xs">Filters</a>
+            <a href="/#" className="text-xs">
+              Filters
+            </a>
           </button>
         </div>
       </div>

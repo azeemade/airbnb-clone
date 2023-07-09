@@ -7,7 +7,6 @@ export const ListingCarousel = ({ listing }) => {
   const [loading, setLoading] = useState(false);
   const [initIndex, setInitIndex] = useState(0);
   const [favorite, setFavorite] = useState(false);
-  const favs = [];
   const setFav = (id) => {
     var favs = readFromCache();
 
@@ -22,34 +21,34 @@ export const ListingCarousel = ({ listing }) => {
     writeToCache(favs);
   };
 
-  const getFav = () => {
-    let favs = readFromCache();
-    favs.includes(listing.id) && setFavorite(true);
-  };
-
-  const getImages = () => {
-    const AUTHORIZATION = {
-      Authorization: "Client-ID o1R4wCrL53msfhPblUPN3qCz1GimNn_nHvHRA9FkGx4",
-    };
-    const RANDNO = Math.floor(Math.random() * (7 - 4) + 4);
-    const URL = `https://api.unsplash.com/search/photos?page=1&query=homes&color=${listing.color}&per_page=${RANDNO}`;
-
-    setLoading(true);
-    fetch(URL, { method: "GET", headers: AUTHORIZATION })
-      .then((response) => {
-        return response.json();
-      })
-      .then((data) => {
-        setImages(data.results);
-        setLoading(false);
-      })
-      .catch((e) => {
-        setLoading(true);
-        console.log(e.message);
-      });
-  };
-
   useEffect(() => {
+    const getFav = () => {
+      let favs = readFromCache();
+      favs.includes(listing.id) && setFavorite(true);
+    };
+
+    const getImages = () => {
+      const AUTHORIZATION = {
+        Authorization: "Client-ID o1R4wCrL53msfhPblUPN3qCz1GimNn_nHvHRA9FkGx4",
+      };
+      const RANDNO = Math.floor(Math.random() * (7 - 4) + 4);
+      const URL = `https://api.unsplash.com/search/photos?page=1&query=homes&color=${listing.color}&per_page=${RANDNO}`;
+
+      setLoading(true);
+      fetch(URL, { method: "GET", headers: AUTHORIZATION })
+        .then((response) => {
+          return response.json();
+        })
+        .then((data) => {
+          setImages(data.results);
+          setLoading(false);
+        })
+        .catch((e) => {
+          setLoading(true);
+          console.log(e.message);
+        });
+    };
+
     getFav();
     getImages();
   }, []);
