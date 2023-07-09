@@ -51,7 +51,7 @@ export const ListingCarousel = ({ listing }) => {
 
     getFav();
     getImages();
-  }, []);
+  }, [listing]);
   return (
     <div>
       {loading ? (
