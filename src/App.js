@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import { ListingGrid } from "./components/listings/listings-grid/ListingGrid";
+import { Navbar } from "./components/navbar/Navbar";
+import { SubNavbar } from "./components/navbar/SubNavbar";
 
 function App() {
+  const [filter, setFilter] = useState("");
+  const handleClick = (filter) => {
+    setFilter(filter);
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-white-100">
+      <nav className="bg-white dark:bg-gray-900 fixed w-full z-40 top-0 left-0">
+        <Navbar />
+        <hr />
+        <SubNavbar setFilter={handleClick} />
+      </nav>
+      <div className="mt-[182px]">
+        <ListingGrid selectedFilter={filter} />
+      </div>
     </div>
   );
 }

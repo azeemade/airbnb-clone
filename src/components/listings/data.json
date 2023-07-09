@@ -1,0 +1,344 @@
+{
+    "listings": [
+        {
+            "id": 1,
+            "color": "white",
+            "name": "Cozy Apartment in the Lake Front Center",
+            "host": "John Doe",
+            "availableDates": [
+                "2023-07-10",
+                "2023-07-11",
+                "2023-07-12"
+            ],
+            "costPerNight": 100,
+            "averageRating": 4.5,
+            "categories": [
+                "LakeFront",
+                "GrandPianos"
+            ]
+        },
+        {
+            "id": 2,
+            "color": "black",
+            "name": "Luxurious Castle with Ocean View",
+            "host": "Jane Smith",
+            "availableDates": [
+                "2023-07-15",
+                "2023-07-16",
+                "2023-07-17"
+            ],
+            "costPerNight": 250,
+            "averageRating": 4.8,
+            "categories": [
+                "BeachFront",
+                "Castles"
+            ]
+        },
+        {
+            "id": 3,
+            "color": "yellow",
+            "name": "Charming Casas Particulares in the Countryside",
+            "host": "Michael Johnson",
+            "availableDates": [
+                "2023-07-20",
+                "2023-07-21",
+                "2023-07-22"
+            ],
+            "costPerNight": 80,
+            "averageRating": 4.2,
+            "categories": [
+                "Cabins",
+                "CasasParticulares"
+            ]
+        },
+        {
+            "id": 4,
+            "color": "orange",
+            "name": "Modern Tiny Home in the Trendy Neighborhood",
+            "host": "Emily Anderson",
+            "availableDates": [
+                "2023-07-25",
+                "2023-07-26",
+                "2023-07-27"
+            ],
+            "costPerNight": 150,
+            "averageRating": 4.6,
+            "categories": [
+                "GuestHouse",
+                "TinyHomes"
+            ]
+        },
+        {
+            "id": 5,
+            "color": "red",
+            "name": "Secluded Cabin by the Lake",
+            "host": "Robert Davis",
+            "availableDates": [
+                "2023-08-01",
+                "2023-08-02",
+                "2023-08-03"
+            ],
+            "costPerNight": 120,
+            "averageRating": 4.4,
+            "categories": [
+                "Lake",
+                "Cabins"
+            ]
+        },
+        {
+            "id": 6,
+            "color": "purple",
+            "name": "Spacious Family Home near Amusement Park",
+            "host": "Jennifer Wilson",
+            "availableDates": [
+                "2023-08-05",
+                "2023-08-06",
+                "2023-08-07"
+            ],
+            "costPerNight": 200,
+            "averageRating": 4.7,
+            "categories": [
+                "Family",
+                "House"
+            ]
+        },
+        {
+            "id": 7,
+            "color": "magenta",
+            "name": "Historic Castle in the Old Town",
+            "host": "David Lee",
+            "availableDates": [
+                "2023-08-10",
+                "2023-08-11",
+                "2023-08-12"
+            ],
+            "costPerNight": 180,
+            "averageRating": 4.9,
+            "categories": [
+                "Tower",
+                "Castles"
+            ]
+        },
+        {
+            "id": 8,
+            "color": "green",
+            "name": "Rustic Farmhouse in the Countryside",
+            "host": "Sarah Thompson",
+            "availableDates": [
+                "2023-08-15",
+                "2023-08-16",
+                "2023-08-17"
+            ],
+            "costPerNight": 90,
+            "averageRating": 4.3,
+            "categories": [
+                "Cabins",
+                "Farms"
+            ]
+        },
+        {
+            "id": 9,
+            "color": "teal",
+            "name": "Modern Tent house with Stunning Views",
+            "host": "Daniel Brown",
+            "availableDates": [
+                "2023-08-20",
+                "2023-08-21",
+                "2023-08-22"
+            ],
+            "costPerNight": 130,
+            "averageRating": 4.6,
+            "categories": [
+                "OutdoorDining",
+                "Tent"
+            ]
+        },
+        {
+            "id": 10,
+            "color": "blue",
+            "name": "Beachfront Yurts with Private Access",
+            "host": "Laura Wilson",
+            "availableDates": [
+                "2023-08-25",
+                "2023-08-26",
+                "2023-08-27"
+            ],
+            "costPerNight": 280,
+            "averageRating": 4.9,
+            "categories": [
+                "BeachFront",
+                "Yurts"
+            ]
+        },
+        {
+            "id": 11,
+            "color": "black_and_white",
+            "name": "Cozy Chalet in the Ryokans",
+            "host": "Mark Thompson",
+            "availableDates": [
+                "2023-09-01",
+                "2023-09-02",
+                "2023-09-03"
+            ],
+            "costPerNight": 150,
+            "averageRating": 4.7,
+            "categories": [
+                "Ryokans",
+                "Jacuzzi"
+            ]
+        },
+        {
+            "id": 12,
+            "color": "black",
+            "name": "Stylish Container home in the Art District",
+            "host": "Sophia Garcia",
+            "availableDates": [
+                "2023-09-05",
+                "2023-09-06",
+                "2023-09-07"
+            ],
+            "costPerNight": 180,
+            "averageRating": 4.5,
+            "categories": [
+                "Container",
+                "TinyHomes"
+            ]
+        },
+        {
+            "id": 13,
+            "color": "yellow",
+            "name": "Tranquil Retreat Dome by the Forest",
+            "host": "Andrew Wilson",
+            "availableDates": [
+                "2023-09-10",
+                "2023-09-11",
+                "2023-09-12"
+            ],
+            "costPerNight": 110,
+            "averageRating": 4.4,
+            "categories": [
+                "Farms",
+                "Domes"
+            ]
+        },
+        {
+            "id": 14,
+            "color": "orange",
+            "name": "Luxury Penthouse in the Sky",
+            "host": "Olivia Brown",
+            "availableDates": [
+                "2023-09-15",
+                "2023-09-16",
+                "2023-09-17"
+            ],
+            "costPerNight": 350,
+            "averageRating": 4.9,
+            "categories": [
+                "Jacuzzi",
+                "GrandPianos"
+            ]
+        },
+        {
+            "id": 15,
+            "color": "red",
+            "name": "Secluded Treehouse in the Woods",
+            "host": "Ethan Davis",
+            "availableDates": [
+                "2023-09-20",
+                "2023-09-21",
+                "2023-09-22"
+            ],
+            "costPerNight": 140,
+            "averageRating": 4.6,
+            "categories": [
+                "Farms",
+                "Barn"
+            ]
+        },
+        {
+            "id": 16,
+            "color": "purple",
+            "name": "Central Container with Modern Design",
+            "host": "Isabella Johnson",
+            "availableDates": [
+                "2023-09-25",
+                "2023-09-26",
+                "2023-09-27"
+            ],
+            "costPerNight": 90,
+            "averageRating": 4.3,
+            "categories": [
+                "GuestHouse",
+                "Container"
+            ]
+        },
+        {
+            "id": 17,
+            "color": "magenta",
+            "name": "Historic Castle with Panoramic Views",
+            "host": "Matthew Wilson",
+            "availableDates": [
+                "2023-10-01",
+                "2023-10-02",
+                "2023-10-03"
+            ],
+            "costPerNight": 400,
+            "averageRating": 4.8,
+            "categories": [
+                "Tower",
+                "Castles"
+            ]
+        },
+        {
+            "id": 18,
+            "color": "green",
+            "name": "Quaint Casas Particulares by the River",
+            "host": "Ava Thompson",
+            "availableDates": [
+                "2023-10-05",
+                "2023-10-06",
+                "2023-10-07"
+            ],
+            "costPerNight": 120,
+            "averageRating": 4.5,
+            "categories": [
+                "Boats",
+                "CasasParticulares"
+            ]
+        },
+        {
+            "id": 19,
+            "color": "teal",
+            "name": "Sleek Guest House Apartment with Rooftop Terrace",
+            "host": "Noah Anderson",
+            "availableDates": [
+                "2023-10-10",
+                "2023-10-11",
+                "2023-10-12"
+            ],
+            "costPerNight": 180,
+            "averageRating": 4.7,
+            "categories": [
+                "GuestHouse",
+                "LakeFront"
+            ]
+        },
+        {
+            "id": 20,
+            "color": "blue",
+            "name": "Beachfront Campervan with All-Inclusive Amenities",
+            "host": "Emma Wilson",
+            "availableDates": [
+                "2023-10-15",
+                "2023-10-16",
+                "2023-10-17"
+            ],
+            "costPerNight": 300,
+            "averageRating": 4.9,
+            "categories": [
+                "BeachFront",
+                "Campervan"
+            ]
+        }
+    ]
+}
