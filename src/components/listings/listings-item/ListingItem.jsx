@@ -8,9 +8,9 @@ export const ListingItem = ({ listing }) => {
         <div>
           <ListingCarousel listing={listing} />
         </div>
-        <div className="flex">
+        <div className="flex mt-1">
           <div className=" w-[90%]">
-            <p title={listing.name} className="truncate">
+            <p title={listing.name} className="truncate font-medium">
               {listing.name}
             </p>
           </div>
@@ -26,7 +26,7 @@ export const ListingItem = ({ listing }) => {
           <p className="text-stone-400">Hosted by {listing.host}</p>
         </div>
 
-        <div className="mb-3">
+        <div className="mb-2">
           <p className="text-stone-400">
             {formatAvailableDates(listing.availableDates)}
           </p>
