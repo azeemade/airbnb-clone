@@ -38,7 +38,7 @@ export const Map = () => {
       let circle = am5.Circle.new(root, {
         radius: 5,
         fill: am5.color(0xff0000),
-        tooltipText: "${price}",
+        tooltipText: `${price}`,
       });
 
       circle.states.create("hover", {
