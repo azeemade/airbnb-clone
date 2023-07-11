@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 import { generateCoordinates } from "./function";
 import * as am5 from "@amcharts/amcharts5";
 import * as am5map from "@amcharts/amcharts5/map";
@@ -22,7 +22,7 @@ export const Map = () => {
     );
 
     // Create polygon series
-    let polygonSeries = chart.series.push(
+    chart.series.push(
       am5map.MapPolygonSeries.new(root, {
         geoJSON: am5geodata_worldLow,
         exclude: ["AQ"],
